@@ -1,5 +1,6 @@
 import pytest
 from bpcalculate import add
+from bpcalculate import multiply
 
 @pytest.mark.parametrize(
     "a, b, expected",
