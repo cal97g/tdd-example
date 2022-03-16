@@ -11,5 +11,5 @@ from bpcalculate import add
         (30, 30.0, 60.0)
     ]
 )
-def test_add(num_a, num_b, expected)
+def test_add(num_a, num_b, expected):
     assert add(num_a, num_b) == expected
